@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="345dp"
+        android:layout_height="268dp"
+        android:layout_marginEnd="32dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@mipmap/menu1"
+        tools:layout_editor_absoluteY="-2dp"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/button1"
+        style="@android:style/Widget.DeviceDefault.Light.Button.Inset"
+        android:layout_width="97dp"
+        android:layout_height="88dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="332dp"
+        app:icon="@android:drawable/stat_sys_phone_call"
+        app:iconGravity="textTop"
+        app:iconPadding="15dp"
+        app:iconSize="50dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.184"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:contentDescription="Botón para llamar."/>
+
+    <Button
+        android:id="@+id/button2"
+        style="@android:style/Widget.DeviceDefault.Light.Button.Inset"
+        android:layout_width="97dp"
+        android:layout_height="88dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="332dp"
+        app:icon="@mipmap/pngegg"
+        app:iconGravity="textTop"
+        app:iconPadding="15dp"
+        app:iconSize="50dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.757"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:contentDescription="Botón para poner alarma."/>
+
+    <Button
+        android:id="@+id/button3"
+        style="@android:style/Widget.DeviceDefault.Light.Button.Inset"
+        android:layout_width="97dp"
+        android:layout_height="88dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="492dp"
+        app:icon="@mipmap/internet"
+        app:iconGravity="textTop"
+        app:iconPadding="15dp"
+        app:iconSize="50dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.184"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:contentDescription="Botón para usar internet."/>
+
+    <Button
+        android:id="@+id/button4"
+        style="@android:style/Widget.DeviceDefault.Light.Button.Inset"
+        android:layout_width="97dp"
+        android:layout_height="88dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="492dp"
+        app:icon="@mipmap/pngwing"
+        app:iconGravity="textTop"
+        app:iconPadding="15dp"
+        app:iconSize="50dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.757"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:contentDescription="Botón para usar la ubicación"/>
+</androidx.constraintlayout.widget.ConstraintLayout>
